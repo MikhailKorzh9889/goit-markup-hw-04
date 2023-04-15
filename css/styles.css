@@ -206,8 +206,8 @@ gap: 40px;
 .hero-section {
 max-width: 1440px;
 margin: 0 auto;
-background-color:var(--hero-bg-cl) ;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+background-color:var(--hero-bg-cl) ;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -382,7 +382,7 @@ padding: 120px 0;
 }
 .clients-title{
 font-size: 36px;
-line-height: 11px;
+line-height: 1.1;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;

@@ -24,6 +24,7 @@
     --logo-list-cl:#2E2F42;
     --client-icon-cl: #8E8F99;
     --footer-item-cl: #F4F4FD;
+    --social-icon-cl:#f4f4fd;
     /* accent-color*/
 	--accent-color: #404bbf;
     --footer-icon-bg-active:#31D0AA;
@@ -171,6 +172,7 @@ color: var(--accent-color);
 }
 .page-header {
 border-bottom: 1px solid #E7E9FC;
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
 display: flex;
@@ -278,7 +280,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--color-slate);
 }
-.advantages-link{
+.advantages-icon-container{
 display: flex;
 align-items: center;
 justify-content: center;
@@ -348,7 +350,7 @@ margin-bottom: 8px;
 
 }
 .team-card {
-padding: 32px 16px;
+padding: 32px 0;
 border-radius: 0px 0px 4px 4px;
 }
 .social-list{
@@ -370,6 +372,9 @@ border-radius: 50%;
 .social-link:focus{
 background-color:var(--social-link-bg-active) ;
 }
+.socials-icon{
+fill: var(--social-icon-cl);
+}
 
 /* Customers sections */
 .customers-sections{
@@ -377,7 +382,7 @@ padding: 120px 0;
 }
 .clients-title{
 font-size: 36px;
-line-height: 40px;
+line-height: 11px;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -419,9 +424,7 @@ padding: 100px 0;
 .footer-content{
 display: flex;
 align-items: baseline;
-}
-.footer-left{
-margin-right: 120px;
+gap: 120px;
 }
 .footer-text {
 font-size: 16px;
@@ -456,6 +459,9 @@ border-radius: 50%;
 .social-media-link:focus{
 background-color: var(--footer-icon-bg-active);
 }
+.social-media-icon{
+fill: var(--social-icon-cl);
+}
 
 
 /* PORTFOLIO */
@@ -472,7 +478,7 @@ margin-bottom: 72px;
 }
 .filter-item:hover,
 .filter-item:focus {
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btn-filter {
@@ -512,10 +518,6 @@ padding-bottom: 120px;
 .portfolio-item {
 width: calc((100% - 48px) / 3);
 }
-.portfolio-item:hover,
-.portfolio-item:focus{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
 .portfolio-text {
 font-size: 16px;
 line-height: 1.5;
@@ -534,4 +536,11 @@ margin-bottom: 8px;
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none; 
+}
+.portfolio-link{
+display: block;
+}
+.portfolio-link:hover,
+.portfolio-link:focus{
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }

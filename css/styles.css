@@ -206,16 +206,13 @@ gap: 40px;
 .hero-section {
 max-width: 1440px;
 margin: 0 auto;
-background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-img.jpg);
 background-color:var(--hero-bg-cl) ;
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 text-align: center;
 padding: 188px 0;
-}
-.hero-container {
-
 }
 .hero-title {
 font-size: 56px;
@@ -289,8 +286,6 @@ background:var(--advantages-icon-bg);
 border-radius: 4px;
 margin-bottom: 8px;
 }
-.advantages-icon{
-}
 
 /* section2-What are we doing */
 .sectiontwo {
@@ -345,9 +340,6 @@ text-align: center;
 letter-spacing: 0.02em;
 color: var(--color-slate);
 margin-bottom: 8px;
-}
-.img-teem {
-
 }
 .team-card {
 padding: 32px 0;
@@ -414,8 +406,6 @@ color: var(--accent-color);
 fill: currentColor;
 }
 
-
-
 /* footer */
 .footer-section {
 background-color: var(--footer-bg-cl);
@@ -463,7 +453,6 @@ background-color: var(--footer-icon-bg-active);
 fill: var(--social-icon-cl);
 }
 
-
 /* PORTFOLIO */
 
 /* Filter */
@@ -480,7 +469,6 @@ margin-bottom: 72px;
 .btn-filter:focus {
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 .btn-filter {
 display: flex;
 justify-content: center;
